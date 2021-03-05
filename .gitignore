@@ -6,6 +6,7 @@
 Assets/AssetStoreTools*
 Assets/Oculus/
 Assets/SteamVR/
+Assets/Steam*
 
 # Visual Studio cache directory
 .vs/
