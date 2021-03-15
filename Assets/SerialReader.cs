@@ -41,18 +41,18 @@ public class SerialReader : MonoBehaviour
 	{
 		if(!connected)
 			SendMessage();
-		
-		
-	}
-	private void FixedUpdate()
-	{
-		//	SendMessage();
 		if (Input.GetKeyDown(KeyCode.Space))
 		{
 			windowSample = 0;
 			recording ^= true;
 			if (recording) fileNo++;
 		}
+
+	}
+	private void FixedUpdate()
+	{
+		//	SendMessage();
+		
 		if (recording) windowSample++;
 		if (windowSample > windowSize)
 		{

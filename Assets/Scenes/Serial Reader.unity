@@ -234,7 +234,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   address: raspberrypi
   port: 9999
-  fileName: Left/left
+  fileName: Other/other
   recording: 0
   connected: 0
   fileNo: 0
